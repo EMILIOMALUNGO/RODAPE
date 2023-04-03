@@ -1,0 +1,95 @@
+body{
+    background-color: #dbc1e5;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+#container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start:5%;
+    padding-inline-end: 5%;
+}
+.testo{
+    font-size: 19px;
+}
+.testo1{
+    font-size: 19px; 
+    padding-inline-start: 68px; 
+}
+.testo2{
+    font-size: 15px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start:5%;
+    padding-inline-end: 5%;
+}
+
+.container3{
+ display: flex;
+}
+.coloca{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 20px;
+    padding: 15px;
+  border-radius: 7px;
+    box-shadow: 1px 3px 8px ;
+    background: linear-gradient(#ada027be,#aa271bc9);
+}
+.coloca input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    margin-right: 25px;
+    color: #000;
+    outline: nome;
+    margin-right: 5px;
+}
+.coloca input::placeholder{
+    color:#f1f1f1;
+}
+#botao{
+   padding:20px;
+   background-color: transparent;
+   border: 0;  
+
+cursor: pointer;
+transition: transform 0.5s ;
+padding-inline-start:1px;
+}
+#botao:hover{
+    transform: scale(1,2);
+}
+
+#logo{
+margin-top:30px;
+
+}
+.area{
+  
+    margin-top: 20px; 
+}
+
+.container4{    
+ margin-top: 40px;
+font-size: 19px;
+ display: flex;
+ justify-content: space-between;
+ padding-inline-start:5%;
+ padding-inline-end: 2%;
+
+}
+
+.pagamento{
+    padding-inline-start:68px; 
+}
+.final{
+    margin-top:10px;
+    padding: 5px;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+    background: linear-gradient(#6a7e4521,#dbc1e5);
+}
